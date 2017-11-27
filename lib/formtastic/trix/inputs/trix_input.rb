@@ -1,4 +1,4 @@
-class TrixInput < Formtastic::Inputs::StringInput
+class TrixInput < ::Formtastic::Inputs::StringInput
   include Base
   include Base::Placeholder
   def to_html
