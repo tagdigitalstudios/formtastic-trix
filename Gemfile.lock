@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    formtastic-trix (0.1.3)
+    formtastic-trix (0.1.4)
       formtastic (~> 3.1.0)
       trix
 
