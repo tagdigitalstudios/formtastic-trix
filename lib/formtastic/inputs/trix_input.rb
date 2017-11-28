@@ -1,6 +1,4 @@
-class TrixInput < ::Formtastic::Inputs::StringInput
-  include Base
-  include Base::Placeholder
+class TrixInput < Formtastic::Inputs::StringInput
   def to_html
     input_wrapping do
       editor_tag_params = {
