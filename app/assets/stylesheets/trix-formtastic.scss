@@ -1,0 +1,9 @@
+.trix-editor-wrapper {
+  width: calc(80% - 22px);
+  display: inline-block;
+  font-size: 0.95em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  outline: none;
+}
+trix-toolbar {}
+trix-editor { background: #FFF; }
