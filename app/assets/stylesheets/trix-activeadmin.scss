@@ -1,0 +1,11 @@
+@import 'trix-formtastic';
+
+// Add in some sensible defaults for activeadmin
+
+.trix-content {
+  ul { list-style: disc; }
+  ol { list-style: decimal; }
+  ul, ol {
+    li { margin-left: 1.25em; margin-bottom: 0.25em; }
+  }
+}
